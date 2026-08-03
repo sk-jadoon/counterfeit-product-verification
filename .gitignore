@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+.eggs/
+.python-version
+venv/
+ENV/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.DS_Store
+/dist
+/.vite
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backend uploads and runtime files
+backend/uploads/
+backend/instance/
+backend/.env
+
+# Model datasets and training artifacts
+ai-model/dataset/
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+blockchain/node_modules/
+
+# Hardhat build artifacts and cache
+blockchain/artifacts/
+blockchain/cache/
+blockchain/deployments/
+
+# Generated contract artifacts if not source
+# frontend/src/contract/ProductVerification.json
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
